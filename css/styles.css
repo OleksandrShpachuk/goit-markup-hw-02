@@ -196,7 +196,7 @@ address .link:hover {
 .work .h2-title {
     color: var(--title-text-color);
 
-    font-size 20px;
+    font-size: 20px;
     line-height: 1.2px
 }
 
