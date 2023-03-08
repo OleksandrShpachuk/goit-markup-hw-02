@@ -8,9 +8,8 @@
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   color: var(--text-color);
-
-  font-family: Roboto, sans-serif;
 }
 
 /* ============= COPMPONENTS ======================= */
@@ -30,7 +29,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
   color: var(--title-text-color);
 }
 
@@ -40,7 +38,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: var(--title-text-color);
 }
 
@@ -50,7 +47,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: #434455;
 }
 
@@ -65,7 +61,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--primary-brand-color);
 }
 
@@ -79,7 +74,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: var(--title-text-color);
 }
 
@@ -98,7 +92,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: var(--text-color);
 }
 
@@ -120,7 +113,6 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-
   color: #ffffff;
 }
 
@@ -132,7 +124,6 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-
   color: #ffffff;
   background-color: var(--primary-brand-color);
 }
@@ -145,7 +136,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: var(--title-text-color);
 }
 
@@ -206,7 +196,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--primary-brand-color);
 }
 
@@ -220,7 +209,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: #e7e9fc;
 }
 
@@ -235,14 +223,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
 }
 
 .filter-button:hover,
 .filter-button:focus {
   color: #e7e9fc;
-  background-color: #4d5ae5;
+  background-color: var(--primary-brand-color);
 }
 
 /* Works list */
@@ -253,7 +240,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: #2e2f42;
 }
 
@@ -263,6 +249,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: #434455;
 }
