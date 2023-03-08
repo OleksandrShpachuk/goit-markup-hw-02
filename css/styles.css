@@ -199,18 +199,6 @@ body {
 
 /* Filter */
 
-.active-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-
-  color: #e7e9fc;
-  background-color: #404bbf;
-}
-
 .filter-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -222,10 +210,10 @@ body {
   color: #4d5ae5;
 }
 
-.button:hover,
-.button:focus {
-  color: #4d5ae5;
-  background-color: #e7e9fc;
+.filter-button:hover,
+.filter-button:focus {
+  color: #e7e9fc;
+  background-color: #4d5ae5;
 }
 
 /* Works list */
